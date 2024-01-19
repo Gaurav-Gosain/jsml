@@ -282,9 +282,15 @@ void json_free(const json *js);
 You can find examples of how to use this library in the examples directory.
 
 - [example.c](examples/example.c) - Example of parsing JSON from a string literal and a file.
-  - Usage: `gcc -o example examples/example.c; ./example`
+  - Usage: 
+  ```sh
+  gcc -o example examples/example.c; ./example
+  ```
 - [api_example.c](examples/api_example.c) - Example of using the API functions.
-  - Usage: `gcc -o api_example examples/api_example.c -lcurl; ./a.out`
+  - Usage: 
+  ```sh
+  gcc -o api_example examples/api_example.c -lcurl; ./api_example
+  ```
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
