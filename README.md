@@ -10,6 +10,12 @@ JSML is a lightweight C library for parsing and manipulating JSON data.
 
 ## Usage
 
+All you need to do is include the jsml.h header file in your project.
+
+```c
+#include "jsml.h"
+```
+
 ### Parsing JSON
 
 #### Parse from String (char *)
