@@ -14,7 +14,7 @@ JSML is a lightweight C library for parsing and manipulating JSON data.
 
 #### Parse from String Literal
 
-> Note: The unescape_json_string_literal function is only needed if you are parsing a JSON string literal i.e. a string that is hardcoded and escaped. If you are parsing a JSON string, you can skip this step.
+> Note: The unescape_json_string_literal function is only needed if you are parsing a JSON string that is hardcoded and escaped. If you are parsing a JSON string, you can skip this step.
 
 ```C
 char* json_string = "{\"key\": \"value\"}";
