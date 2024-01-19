@@ -10,7 +10,7 @@ int main() {
   /**
    * Parse JSON file
    */
-  const json *parsed_json_file = json_parse_file_utf8("example.json");
+  const json *parsed_json_file = json_parse_file_utf8("examples/example.json");
 
   if (parsed_json_file) {
     json_print(parsed_json_file);
